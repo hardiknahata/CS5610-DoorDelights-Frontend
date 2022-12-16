@@ -9,7 +9,7 @@ const RestaurantContent = () => {
 
     const getRestaurantCard = (restaurantObj) => {
         return (
-            <div className="col-4 mb-3">
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-1 mb-3">
                 <div className="card" key={restaurantObj._id}>
                     <RestaurantCard {...restaurantObj} />
                 </div>
