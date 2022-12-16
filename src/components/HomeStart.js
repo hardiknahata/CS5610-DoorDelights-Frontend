@@ -27,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
         fontWeight: "bold",
         color: "",
+        marginBottom: 50,
 
     },
     delivery: {

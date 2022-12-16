@@ -46,7 +46,7 @@ const Home = () => {
 
   let restaurantMarkup = loading ? <Spinner /> : <RestaurantContent />;
   return (
-      <div className="container">
+      <div className="containerx">
         {(() => {
           if (authenticated && role === "ROLE_SELLER") {
             return (
