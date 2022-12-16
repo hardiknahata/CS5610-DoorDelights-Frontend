@@ -25,6 +25,9 @@ export default function AppBarPrimary() {
                 <span className="font-weight-bold ">
                   Seller Dashboard
                 </span>
+                        <Link to="/">
+                            <button className="btn  font-weight-bold">Home</button>
+                        </Link>                
                         <Link to="/seller/orders">
                             <button className="btn  font-weight-bold">Orders</button>
                         </Link>
