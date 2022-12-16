@@ -254,7 +254,7 @@ const Cart = (props) => {
                     <Typography variant="body2" color="white">
                       <div className={classes.spaceTypo}>
                         <span>Initial amount</span>
-                        <span>$ {price}</span>
+                        <span>$ {Number(price).toFixed(2)}</span>
                       </div>
                       <br />
                       <br />
@@ -288,7 +288,7 @@ const Cart = (props) => {
                   <Typography gutterBottom variant="h5" noWrap>
                     <div className={classes.spaceTypo}>
                       <span>Grand Total: </span>
-                      <span>$ {price + deliveryCharge}</span>
+                      <span>$ {Number(price + deliveryCharge).toFixed(2)}</span>
                     </div>
                     <br />
                   </Typography>

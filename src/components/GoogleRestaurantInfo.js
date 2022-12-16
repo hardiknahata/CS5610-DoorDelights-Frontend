@@ -93,9 +93,9 @@ function GoogleRestaurant(props) {
                     <div className="row" style={{marginTop: 40}}>
                         <div className="col-1"></div>
                         <div className="col-6">
-                            <p className="me-5" style={{fontSize: "16px"}}>Why starve when you have us
-                                <span className="ms-3" role="img" aria-label="fries" style={{fontSize: 30}}>🍟</span>
-                            </p>
+                            {/* <p className="me-5" style={{fontSize: "16px"}}>Why starve when you have us
+                                <span className="ms-3" role="img" aria-label="fries" style={{fontSize: 30}}></span>
+                            </p> */}
                         </div>
                     </div>
                 </>)}
