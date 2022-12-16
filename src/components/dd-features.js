@@ -8,7 +8,7 @@ import fastDeliveryIcon from "../images/fast-delivery.png";
 
 export default function DDFeatures() {
     return (
-        <div className="row">
+        <div className="row mt-5">
             <div className="col-sm text-center">
                 <>
                     <p style={{fontSize: "20px", fontWeight: "bold"}}>
