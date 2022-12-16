@@ -34,7 +34,7 @@ export default function Footer() {
                                 />
                                 {!authenticated &&
                                     <p>
-                                        <a href="src/restaurant/addRestaurant" className="text-white">Add Restaurant</a>
+                                        <a href="/addRestaurant" className="text-white">Add Restaurant</a>
                                     </p>
                                 }
                                 <p>
@@ -44,7 +44,7 @@ export default function Footer() {
                                     <a href="/register" className="text-white">Sign Up</a>
                                 </p>
                                 <p>
-                                    <a href="/src/search/search" className="text-white">Search</a>
+                                    <a href="/search" className="text-white">Search</a>
                                 </p>
                             </div>
 
