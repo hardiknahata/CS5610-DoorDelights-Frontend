@@ -9,7 +9,7 @@ const GoogleRestaurantContent = () => {
 
     const getRestaurantCard = (restaurantObj) => {
         return (
-            <div className="col-3 mr-1 mb-3" key={restaurantObj._id}>
+            <div className="col-4 mr-6 mb-3" key={restaurantObj._id}>
                 <GoogleRestaurantCard {...restaurantObj} />
             </div>
         );
