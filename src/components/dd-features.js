@@ -9,7 +9,7 @@ import fastDeliveryIcon from "../images/fast-delivery.png";
 export default function DDFeatures() {
     return (
         <div className="row mt-5">
-            <div className="col-sm text-center">
+            <div className="col-sm text-center m-4">
                 <>
                     <p style={{fontSize: "20px", fontWeight: "bold"}}>
                         Add your Restaurant
@@ -30,7 +30,7 @@ export default function DDFeatures() {
                 </>
             </div>
 
-            <div className="col-sm text-center me-3">
+            <div className="col-sm text-center m-4">
                 <p style={{fontSize: "20px", fontWeight: "bold"}}>
                     Live Order Tracking
                 </p>
@@ -49,7 +49,7 @@ export default function DDFeatures() {
                 </Link>
             </div>
 
-            <div className="col-sm text-center">
+            <div className="col-sm text-center m-4">
                 <p style={{fontSize: "20px", fontWeight: "bold"}}>
                     Lightning Fast Delivery
                 </p>
