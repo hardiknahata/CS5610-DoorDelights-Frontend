@@ -19,11 +19,11 @@ export default function DDFeatures() {
                         alt="add resaurant icon"/>
 
                     <p style={{fontSize: "18px"}}>
-                        Join your restaurant to DoorDelight's network of restaurants and start delivering today!
+                        Join your Restaurant to our network of restaurants and deliver today!
                     </p>
 
                     <Link to="/addrestaurant">
-                        <button className="btn btn-primary rounded-pill border-0" style={{backgroundColor: "green"}}>ADD
+                        <button className="btn btn-primary rounded-pill border-0" style={{backgroundColor: "#5cdb95"}}>ADD
                             RESTAURANT
                         </button>
                     </Link>
@@ -44,7 +44,7 @@ export default function DDFeatures() {
                 </p>
 
                 <Link to="/login">
-                    <button className="btn btn-primary rounded-pill border-0" style={{backgroundColor: "green"}}>LOGIN
+                    <button className="btn btn-primary rounded-pill border-0" style={{backgroundColor: "#5cdb95"}}>LOGIN
                     </button>
                 </Link>
             </div>
@@ -60,7 +60,7 @@ export default function DDFeatures() {
                 <p style={{fontSize: "18px"}}>
                     Experience DoorDelight's superfast delivery for food delivered fresh & on time</p>
                 <Link to="/register">
-                    <button className="btn btn-primary rounded-pill border-0" style={{backgroundColor: "green"}}>SIGN
+                    <button className="btn btn-primary rounded-pill border-0" style={{backgroundColor: "#5cdb95"}}>SIGN
                         UP
                     </button>
                 </Link>

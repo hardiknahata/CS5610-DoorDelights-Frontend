@@ -75,7 +75,9 @@ const Home = () => {
                       <Typography variant="body1" className={classes.center} noWrap>
                         Enter your location to view nearby restaurants
                       </Typography>
+                      
                   )}
+                  <br></br>
                 </Grid>
                 <Grid item xs={false} sm={1} />
               </Grid>
