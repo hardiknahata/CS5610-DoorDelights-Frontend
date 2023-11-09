@@ -6,6 +6,10 @@ This respository contains the code for the Frontend part of the Application.
 
 This project is a food delivery app developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack along with Redux. It features a unique capability that allows users to place orders from multiple restaurants in a single order.
 
+## Sample UI 
+
+<img width="1440" alt="img-24" src="https://github.com/hardiknahata/CS5610-DoorDelights-Frontend/assets/44176224/80e084e6-16a0-49e4-9212-dd97f488d586">
+
 ## Features
 
 - **MERN Stack**: The app is built using MongoDB as the database, Express.js as the backend server, React.js for the frontend, and Node.js as the runtime environment.
@@ -31,10 +35,6 @@ This project is a food delivery app developed using the MERN (MongoDB, Express.j
 - **State Management**: Redux for handling global application state.
 
 - **API Integration**: Google Search & Geocoding APIs for location-based search functionality.
-
-## Sample UI 
-
-<img width="1440" alt="img-24" src="https://github.com/hardiknahata/CS5610-DoorDelights-Frontend/assets/44176224/80e084e6-16a0-49e4-9212-dd97f488d586">
 
 ## Note: 
 
