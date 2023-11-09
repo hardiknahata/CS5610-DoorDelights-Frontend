@@ -49,11 +49,13 @@ You need to have Node.js and npm installed to run this project.
 
 1. Clone the frontend and backend repositories
 2. Navigate to the backend folder and install the necessary dependencies using npm install
-3. Start the backend server:```sh
+3. Start the backend server:
+   ```sh
    node app.js
    ```
 4. Navigate to the frontend folder and install the frontend dependencies using npm install
-5. Start the frontend development server:```sh
+5. Start the frontend development server:
+   ```sh
    npm start
    ```
 6. Access the application by opening your browser and navigating to http://localhost:3000.
